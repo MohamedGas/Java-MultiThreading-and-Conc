@@ -51,7 +51,7 @@ public class VaultGame {
 
         @Override
         public void start() {
-            System.out.println("Starting thread " + this.getName());
+            System.out.println("Starting thread  .. " + this.getName());
             super.start();
         }
     }

@@ -12,7 +12,7 @@ import java.util.List;
  * Please implement the MultiExecutor below
  */
 public class MultiExecutor {
-    private List<Runnable> tasks;
+    private final List<Runnable> tasks;
 
     public MultiExecutor(List<Runnable> tasks) {
         this.tasks = tasks;

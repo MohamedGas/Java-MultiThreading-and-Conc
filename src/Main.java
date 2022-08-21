@@ -8,7 +8,7 @@ public class Main {
         protected int a;
 
         public sup() {
-            System.out.println("super Default");
+            System.out.println("super Default ");
         }
 
         public sup(int a) {
